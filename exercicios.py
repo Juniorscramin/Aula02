@@ -25,17 +25,42 @@
 # print(resultado)
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
-numero = int(input("Digite um núemro inteiro: "))
-resultado = numero ** 2
-print(f"O quadrado de {numero} é {resultado}.")
+# numero = int(input("Digite um núemro inteiro: "))
+# resultado = numero ** 2
+# print(f"O quadrado de {numero} é {resultado}.")
 
 # #### Números de Ponto Flutuante (`float`)
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
+# numero1 = float(input("Digite um número: "))
+# numero2 = float(input("Digite outro número: "))
+# resultado = numero1 + numero2
+# print(f"A soma dos números é {resultado:.2f}")
+
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+# numero1 = float(input("Digite um número: "))
+# numero2 = float(input("Digite outro número: "))
+# resultado = (numero1 + numero2) / 2
+# print(f"A média é {resultado:.2f}")
+
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+# base = float(input("Digite a base para calcular: "))
+# expoente = float(input("Digite o expoente para calcular: "))
+# potencia = base ** expoente
+# print(f"O resultado de {base} elevado a {expoente} é {potencia:.2f}")
+
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+# celsius = float(input("Digite a temperatura: "))
+# CONSTANTE_F = float(1.8)
+# CONSTANTE_CALCULO = int(32)
+# fahrenheit = celsius * CONSTANTE_F + CONSTANTE_CALCULO
+# print(f"A temperatura {celsius} convertida para fahrenheit é {fahrenheit:.2f}")
+
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+import math
+raio = float(input("Digite o raio do círculo para calcular a área: "))
+area = math.pi * (raio ** 2)
+print(f"A área do circulo é de {area:.2f}.")
 
 # #### Strings (`str`)
 
